@@ -1,0 +1,19 @@
+.footer {
+  padding-bottom: 30px;
+  background-color: #232323;
+  justify-items: center;
+  align-content: end;
+  height: 270px;
+}
+.footer .ftr-text {
+  letter-spacing: 3px;
+}
+.footer .ftr-hed {
+  letter-spacing: 8px;
+  line-height: 2px;
+}
+.footer .icons {
+  font-size: 20px;
+  letter-spacing: 20px;
+  line-height: 50px;
+}
