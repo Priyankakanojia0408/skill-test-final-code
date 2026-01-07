@@ -4,6 +4,7 @@
     background-image: url('../images/header-bg.jpg');
     justify-items: center;
     align-content:center;
+    -ms-flex-line-pack: center;
     
 }
 .header .hed {
@@ -15,10 +16,84 @@
 }
 .header .searchbar {
     margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    border-radius: 2px solid;
+    background-color: white;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
-    gap: 10px;
-    
 
+
+}
+.header .searchbar .textA {
+    letter-spacing: 3px;
+    font-size: small;
+    margin-left: 10px;
+    color: #99999999;
+    width: 300px;
+    border: none;
+}
+
+.header .searchbar .buttonA {
+    font-family: "Aleo";
+    color: #ffffff;
+    font-size: small;
+    background-color: #5474FD;
+    width: 130px;
+    height:50px;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 15px;
+    -ms-grid-column-align: end;
+    justify-self: end;
+    margin: 1px;
+    border: #FFFFFF;
+}
+
+.header .searchbar .buttonA:hover {
+    background-color: #3a5ee0;
+   color: #5474FD;
+   outline: 2px solid #5474FD;
+   outline-offset: 2px;
+}
+.header .scroll {
+  margin-top: 50px;
+  padding: 50px;
+  justify-items: center;
+}
+.header .navbar {
+  position: absolute;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #5474FD;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .navbar .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+}
+.header .navbar .nav .nav-items {
+  text-decoration: none;
+  font-family: "Aleo";
+  color: #FFFFFF;
+  font-size: small;
 }
