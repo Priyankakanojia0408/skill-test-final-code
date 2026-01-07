@@ -1,7 +1,7 @@
 .header {
     position:relative;
     height: 800px;
-    background-image: url('../images/header-bg.jpg');
+    background-image: url('../images/header-bg.svg');
     justify-items: center;
     align-content:center;
     -ms-flex-line-pack: center;
@@ -180,4 +180,125 @@ body {
   color: #5474FD;
   outline: 2px solid #5474FD;
   outline-offset: 2px;
+}
+.sectionB {
+    justify-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+        min-height: 300px;
+        background-color:#333333;
+}
+.sectionB .arrows {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items: center;
+}
+.sectionB .secB-img {
+  font-family: "Aleo";
+  font-size: 25px;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  gap: 250px;
+}
+.sectionC {
+  min-height: 700px;
+  background-image: url(../images/section-2bg.svg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+}
+.sectionC .secC {
+  max-width: 450px;
+}
+.box {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  max-width: 450px;
+  min-height: 350px;
+  padding: 20px;
+}
+.box .col {
+  color: #E8E8E8;
+  font-weight: 300;
+}
+.box .secC-text {
+  font-size: 20px;
+}
+.box .text-reg {
+  font-size: 16px;
+}
+.sectionD {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  min-height: 650px;
+  background-image: url(../images/section-3bg.svg);
+  background-size: cover;
+  background-position: center;
+}
+.sectionD .secD {
+  max-width: 450px;
+  margin-bottom: 20px;
+}
+
+.sectionE {
+  padding: 30px;
+  height: 600px;
+  justify-items: center;
+  background-image: url(../images/section-4bg.svg);
+}
+.sectionE .secE {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sectionE .secE-maintext {
+  height: 285px;
+  background-color: #333333;
+  width: 650px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sectionE .secE-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 480px) {
+  .sectionA, .sectionB, .sectionC, .sectionD, .sectionE {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .secA-btn, .buttonA {
+    width: 100%;
+  }
 }
