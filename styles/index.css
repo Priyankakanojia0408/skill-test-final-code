@@ -1,0 +1,24 @@
+.header {
+    position:relative;
+    height: 800px;
+    background-image: url('../images/header-bg.jpg');
+    justify-items: center;
+    align-content:center;
+    
+}
+.header .hed {
+    letter-spacing: 9px;
+    line-height: 2px;
+}
+.header .text {
+    letter-spacing: 6px;
+}
+.header .searchbar {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+
+}
